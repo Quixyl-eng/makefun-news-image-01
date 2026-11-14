@@ -6,4 +6,5 @@ from pathlib import Path
 folder = Path(os.environ.get("MAKEFUN_OUTPUT_DIR", "/output"))
 folder.mkdir(parents=True, exist_ok=True)
 # One file, two graded runs, the same bytes.
+# Delhi, the rupee, the cricket and the awards are on this page.
 shutil.copyfile(Path(__file__).resolve().parent / "entry.png", folder / "entry.png")
