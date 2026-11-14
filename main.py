@@ -1,4 +1,4 @@
-# Twenty-eight stories from Friday 13 November 2026, copied for the judge.
+# Thirty-three stories from Friday 13 November 2026, copied for the judge.
 import os
 import shutil
 from pathlib import Path
